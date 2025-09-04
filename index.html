@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Bilgi Formu</title>
+    <style>
+        body {
+            background: #f6f8fa;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            color: #0077ff; /* Tüm yazılar mavi */
+        }
+        .form-container {
+            background: #fff;
+            margin-top: 60px;
+            padding: 32px 28px 28px 28px;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+            width: 350px;
+        }
+        h2 {
+            text-align: center;
+            color: #0077ff;
+            margin-bottom: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+        label {
+            font-weight: 500;
+            margin-bottom: 4px;
+            color: #0077ff;
+        }
+        input, textarea {
+            padding: 9px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+            color: #0077ff;
+        }
+        textarea {
+            min-height: 60px;
+            resize: vertical;
+        }
+        .button-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 10px;
+        }
+        button {
+            background: #0077ff;
+            color: #fff;
+            border: none;
+            padding: 10px 0;
+            border-radius: 6px;
+            font-size: 1rem;
+            cursor: pointer;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+        button:hover {
+            background: #005fcc;
+        }
+        .emoji {
+            font-size: 1.2em;
+        }
+        .success {
+            color: #0077ff;
+            text-align: center;
+            margin-top: 10px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Bilgi Formu</h2>
+        <form id="infoForm">
+            <div>
+                <label for="ad">Adınız:</label>
+                <input type="text" id="ad" name="ad" required>
+            </div>
+            <div>
+                <label for="email">E-Posta:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="telefon">Telefon:</label>
+                <input type="tel" id="telefon" name="telefon">
+            </div>
+            <div>
+                <label for="*
+
